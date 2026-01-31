@@ -1808,7 +1808,7 @@ const App: React.FC = () => {
                                <div className="relative"><span className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 font-bold">₹</span><input type="number" className="w-full pl-8 pr-4 py-2 bg-gray-50 border border-gray-200 rounded-xl font-bold text-gray-900 focus:ring-2 focus:ring-indigo-500/20 outline-none" value={globalConfig.parcelSlab2Rate} onChange={(e) => setGlobalConfig({ ...globalConfig, parcelSlab2Rate: parseFloat(e.target.value) || 0 })} /></div>
                             </div>
                             <div>
-                               <label className="text-[10px] font-bold text-gray-400 uppercase tracking-wider block mb-1">Slab 3 (>100kg)</label>
+                               <label className="text-[10px] font-bold text-gray-400 uppercase tracking-wider block mb-1">Slab 3 (&gt;100kg)</label>
                                <div className="relative"><span className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 font-bold">₹</span><input type="number" className="w-full pl-8 pr-4 py-2 bg-gray-50 border border-gray-200 rounded-xl font-bold text-gray-900 focus:ring-2 focus:ring-indigo-500/20 outline-none" value={globalConfig.parcelSlab3Rate} onChange={(e) => setGlobalConfig({ ...globalConfig, parcelSlab3Rate: parseFloat(e.target.value) || 0 })} /></div>
                             </div>
                             <div className="col-span-2 pt-2 border-t border-gray-100 mt-2">
@@ -1991,7 +1991,7 @@ const App: React.FC = () => {
                                </div>
                             </div>
                             <div>
-                               <label className="text-[10px] font-bold text-gray-400 uppercase tracking-wider block mb-1">Slab 3 (>100kg)</label>
+                               <label className="text-[10px] font-bold text-gray-400 uppercase tracking-wider block mb-1">Slab 3 (&gt;100kg)</label>
                                <div className="relative">
                                   <span className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 font-bold">₹</span>
                                   <input type="number" className="w-full pl-8 pr-4 py-3 bg-gray-50 border border-gray-200 rounded-xl font-black text-gray-900 focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 transition-all outline-none" value={config.parcelSlab3Rate} onChange={(e) => setConfig({ ...config, parcelSlab3Rate: parseFloat(e.target.value) || 0 })} />
